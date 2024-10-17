@@ -1,0 +1,199 @@
+body {
+  font-family: "Work Sans", sans-serif;
+  background-color: #ccc;
+}
+.col-xl-6 {
+  flex: 0 0 50%;
+  max-width: 50%;
+}
+.container-custom {
+  padding: 0 15px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1200px;
+}
+.container-custom .row-dflex {
+  margin-left: -15px;
+  margin-right: -15px;
+  display: flex;
+  flex-wrap: wrap;
+}
+@media (max-width: 992px) {
+  .container-custom {
+    max-width: 960px;
+  }
+}
+@media (max-width: 768px) {
+  .container-custom {
+    max-width: 720px;
+  }
+}
+@media (max-width: 576px) {
+  .container-custom {
+    max-width: 540px;
+  }
+}
+.type-3114 {
+  background-color: #fff;
+}
+.type-3114 .top-header {
+  padding-top: 10px;
+}
+.type-3114 .top-header .welcome span {
+  font-size: 13px;
+  color: #000;
+}
+.type-3114 .top-header .list-nav {
+  justify-content: flex-end;
+}
+.type-3114 .top-header .list-nav div {
+  padding: 0 25px;
+  position: relative;
+}
+.type-3114 .top-header .list-nav div a {
+  font-size: 13px;
+  padding: 5px 0;
+  text-decoration: none;
+  color: #000;
+}
+.type-3114 .top-header .list-nav div a .flag {
+  position: absolute;
+  top: -1px;
+}
+.type-3114 .top-header .list-nav div a .language {
+  display: inline-block;
+  padding-left: 25px;
+}
+.type-3114 .top-header .list-nav div:hover a {
+  color: #fcb800;
+}
+.type-3114 .top-header .list-nav div:not(:last-child)::after {
+  content: '';
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 1px;
+  height: 12px;
+  background-color: #ccc;
+}
+.type-3114 .beetwen-header .beetwen-header-flex {
+  align-items: center;
+  justify-content: center;
+  min-height: 92px;
+  padding: 10px 0;
+}
+.type-3114 .beetwen-header .search {
+  display: flex;
+}
+.type-3114 .beetwen-header .search .input-search {
+  border: 1px solid #ccc;
+  border-right: none;
+  border-radius: 3px 0 0 3px;
+  width: 100%;
+  height: 42px;
+  padding: 0 15px;
+  margin: 0;
+}
+.type-3114 .beetwen-header .search .btn-search {
+  border: none;
+  box-shadow: none;
+  border-radius: 0 3px 3px 0;
+  text-transform: none;
+  height: 42px;
+  color: #000;
+  background-color: #fcb800;
+  font-weight: 500;
+  padding: 5px 15px;
+}
+.type-3114 .beetwen-header .auth {
+  display: flex;
+  justify-content: flex-end;
+}
+.type-3114 .beetwen-header .auth .heart {
+  margin-right: 30px;
+}
+.type-3114 .beetwen-header .auth .heart a {
+  text-decoration: none;
+  color: #000;
+}
+.type-3114 .beetwen-header .auth .heart a:hover {
+  color: #fcb800;
+}
+.type-3114 .beetwen-header .auth .cart {
+  margin-right: 30px;
+}
+.type-3114 .beetwen-header .auth .cart a {
+  text-decoration: none;
+  color: #000;
+}
+.type-3114 .beetwen-header .auth .cart a:hover {
+  color: #fcb800;
+}
+.type-3114 .beetwen-header .auth .login {
+  display: flex;
+}
+.type-3114 .beetwen-header .auth .login .login-txt {
+  margin-left: 3px;
+}
+.type-3114 .beetwen-header .auth .login .login-txt a {
+  text-decoration: none;
+  color: #000;
+  display: block;
+}
+.type-3114 .beetwen-header .auth .login .login-txt a:hover {
+  color: #fcb800;
+}
+.type-3114 .bottom-header {
+  border-top: 1px solid rgba(204,204,204,0.5);
+  border-bottom: 1px solid rgba(204,204,204,0.5);
+}
+.type-3114 .bottom-header .bottom-header-wrap {
+  padding: 9px 0;
+  align-items: center;
+}
+.type-3114 .bottom-header .shop-by-department {
+  display: flex;
+  align-items: center;
+}
+.type-3114 .bottom-header .shop-by-department p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+  color: #000;
+  margin: 0;
+  margin-left: 4px;
+}
+.type-3114 .bottom-header .menu {
+  display: flex;
+}
+.type-3114 .bottom-header .menu .item {
+  padding: 0 10px;
+}
+.type-3114 .bottom-header .menu .item a {
+  font-size: 16px;
+  color: #000;
+  line-height: 30px;
+  font-weight: 500;
+  text-decoration: none;
+}
+.type-3114 .bottom-header .menu .item a:hover {
+  color: #fcb800;
+}
+.type-3114 .bottom-header .phone {
+  float: right;
+  position: relative;
+}
+.type-3114 .bottom-header .phone span {
+  font-size: 16px;
+  color: rgba(0,0,0,0.6);
+}
+.type-3114 .bottom-header .phone strong {
+  font-weight: 500;
+  color: #000;
+}
+.type-3114 .bottom-header .phone i {
+  position: absolute;
+  top: 7px;
+  left: -23px;
+}
